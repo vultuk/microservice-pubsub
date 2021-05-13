@@ -1,11 +1,11 @@
-import {PubSub} from '@google-cloud/pubsub';
-import {NextFunction, Request, Response} from 'express';
+import { PubSub } from '@google-cloud/pubsub';
+import { NextFunction, Request, Response } from 'express';
 
-import {PubSubOptions} from './Types/pubsub';
-import {PubSubError} from './Types/pubsubError';
-import {PubSubSuccess} from './Types/pubsubSuccess';
-import {PushBody} from './Types/pushBody';
-import {Settings} from './Types/settings';
+import { PubSubOptions } from './Types/pubsub';
+import { PubSubError } from './Types/pubsubError';
+import { PubSubSuccess } from './Types/pubsubSuccess';
+import { PushBody } from './Types/pushBody';
+import { Settings } from './Types/settings';
 
 export type { PubSubSuccess } from './Types/pubsubSuccess';
 export type { PubSubError } from './Types/pubsubError';
